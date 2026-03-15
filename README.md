@@ -1,2 +1,90 @@
-# loading99hackathon
+# Team - LOADING...99% 
 a repo for the Physics Techne Symposium hackathon
+
+🧬 Quantum Encoding of Genetic Information
+
+This project explores the application of quantum computing techniques for encoding, simulating, and decoding genetic (DNA) sequences using Qiskit and quantum simulation backends.
+
+The framework implements multiple quantum encoding strategies and evaluates their performance using fidelity, circuit metrics, and decoding accuracy.
+
+🚀 Project Objectives
+
+Encode DNA sequences into quantum states
+
+Implement different quantum encoding strategies
+
+Simulate circuits using ideal and noisy quantum backends
+
+Evaluate performance using quantum fidelity
+
+
+
+⚛️ Encoding Methods Implemented
+
+Angle Encoding (RY-based embedding)
+
+Entanglement-enhanced circuits
+
+
+
+🔬 Simulation & Evaluation
+
+Ideal simulation using statevector methods
+
+Noisy simulation using Aer noise models
+
+Fidelity calculation between ideal and noisy states
+
+Circuit depth analysis
+
+Gate count analysis
+
+
+
+
+🧠 Technologies Used
+
+Qiskit
+
+Qiskit Aer
+
+pyzx
+
+Qiskit ibm runtime
+
+NumPy
+
+SciPy
+
+Matplotlib
+
+Quantum state fidelity metrics
+
+
+
+📊 Key Features
+
+Quantum-classical hybrid workflow
+
+Noise-aware simulation
+
+Scalable encoding framework
+
+
+
+🎯 Applications
+
+Quantum bioinformatics
+
+Quantum machine learning
+
+Data compression research
+
+Quantum information theory
+
+
+
+📁 Project Structure
+quantum-dna-encoding/
+├── QuantumProject.py
+├── README.md
