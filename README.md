@@ -1,90 +1,79 @@
-# Team - LOADING...99% 
-a repo for the Physics Techne Symposium hackathon
+# Team - LOADING...99%
+*A repository for the Physics Techne Symposium Hackathon*
 
-🧬 Quantum Encoding of Genetic Information
+---
 
-This project explores the application of quantum computing techniques for encoding, simulating, and decoding genetic (DNA) sequences using Qiskit and quantum simulation backends.
+## 🧬 Quantum Encoding of Genetic Information
 
-The framework implements multiple quantum encoding strategies and evaluates their performance using fidelity, circuit metrics, and decoding accuracy.
+This project explores the application of **quantum computing techniques** for encoding, simulating, and decoding genetic (DNA) sequences using **Qiskit** and quantum simulation backends.
 
-🚀 Project Objectives
+The framework implements multiple quantum encoding strategies and evaluates their performance using:
 
-Encode DNA sequences into quantum states
+- Fidelity metrics  
+- Circuit complexity analysis  
+- Decoding accuracy  
 
-Implement different quantum encoding strategies
+---
 
-Simulate circuits using ideal and noisy quantum backends
+## 🚀 Project Objectives
 
-Evaluate performance using quantum fidelity
+- Encode DNA sequences into quantum states  
+- Implement different quantum encoding strategies  
+- Simulate circuits using ideal and noisy quantum backends  
+- Evaluate performance using quantum fidelity  
 
+---
 
+## ⚛️ Encoding Methods Implemented
 
-⚛️ Encoding Methods Implemented
+- Angle Encoding (RY-based embedding)  
+- Entanglement-enhanced circuits  
 
-Angle Encoding (RY-based embedding)
+---
 
-Entanglement-enhanced circuits
+## 🔬 Simulation & Evaluation
 
+- Ideal simulation using **statevector methods**
+- Noisy simulation using **Aer noise models**
+- Fidelity calculation between ideal and noisy states
+- Circuit depth analysis
+- Gate count analysis
 
+---
 
-🔬 Simulation & Evaluation
+## 🧠 Technologies Used
 
-Ideal simulation using statevector methods
+- Qiskit  
+- Qiskit Aer  
+- PyZX  
+- Qiskit IBM Runtime  
+- NumPy  
+- Matplotlib  
+- Quantum state fidelity metrics  
 
-Noisy simulation using Aer noise models
+---
 
-Fidelity calculation between ideal and noisy states
+## 📊 Key Features
 
-Circuit depth analysis
+- Quantum-classical hybrid workflow  
+- Noise-aware simulation  
+- Scalable encoding framework  
 
-Gate count analysis
+---
 
+## 🎯 Applications
 
+- Quantum bioinformatics  
+- Quantum machine learning  
+- Data compression research  
+- Quantum information theory  
 
+---
 
-🧠 Technologies Used
+## 📁 Project Structure
 
-Qiskit
+quantum-dna-encoding
 
-Qiskit Aer
-
-pyzx
-
-Qiskit ibm runtime
-
-NumPy
-
-SciPy
-
-Matplotlib
-
-Quantum state fidelity metrics
-
-
-
-📊 Key Features
-
-Quantum-classical hybrid workflow
-
-Noise-aware simulation
-
-Scalable encoding framework
-
-
-
-🎯 Applications
-
-Quantum bioinformatics
-
-Quantum machine learning
-
-Data compression research
-
-Quantum information theory
-
-
-
-📁 Project Structure
-quantum-dna-encoding/
 ├── QuantumProject.py
-├── README.md
+
+└── README.md
